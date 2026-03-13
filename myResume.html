@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>個人履歷 - 114018023</title>
+
+<style>
+body{
+    font-family: "Microsoft JhengHei", Arial, sans-serif;
+    margin:0;
+    background:#f4f6f8;
+    color:#333;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:40px;
+}
+
+header{
+    text-align:center;
+    border-bottom:2px solid #eee;
+    padding-bottom:20px;
+}
+
+h1{
+    margin:0;
+    font-size:32px;
+}
+
+.student-id{
+    color:#666;
+}
+
+section{
+    margin-top:30px;
+}
+
+h2{
+    border-left:5px solid #0077ff;
+    padding-left:10px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+button{
+    margin-top:20px;
+    padding:10px 20px;
+    border:none;
+    background:#0077ff;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+/* 深色模式 */
+.dark{
+    background:#1e1e1e;
+    color:#eee;
+}
+
+.dark .container{
+    background:#2a2a2a;
+}
+
+.dark h2{
+    border-left:5px solid #4da3ff;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>個人履歷</h1>
+<p>亞洲大學學生</p>
+<p class="student-id">學號：114018023</p>
+<button onclick="toggleTheme()">切換深色模式</button>
+</header>
+
+<section>
+<h2>基本資料</h2>
+<ul>
+<li>姓名：余侑靜</li>
+<li>學校：亞洲大學</li>
+<li>科系：聽語系</li>
+<li>Email：your@email.com</li>
+</ul>
+</section>
+
+<section>
+<h2>教育背景</h2>
+<ul>
+<li>2024 - 現在：亞洲大學 就讀中</li>
+</ul>
+</section>
+
+<section>
+<h2>技能</h2>
+<ul>
+<li>HTML / CSS</li>
+<li>JavaScript</li>
+<li>Python</li>
+</ul>
+</section>
+
+<section>
+<h2>專案經驗</h2>
+<ul>
+<li>個人網站設計</li>
+<li>簡易網頁應用程式</li>
+</ul>
+</section>
+
+<section>
+<h2>自我介紹</h2>
+<p>
+這裡可以寫你的自我介紹，例如你的學習背景、興趣以及未來目標。
+</p>
+</section>
+
+</div>
+
+<script>
+
+function toggleTheme(){
+    document.body.classList.toggle("dark");
+}
+
+</script>
+
+</body>
+</html>
