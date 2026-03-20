@@ -11,7 +11,19 @@ body{
     background:#f4f6f8;
     color:#333;
 }
+.header{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
 
+.profile-img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid #0077ff;
+}
 .container{
     max-width:900px;
     margin:auto;
@@ -78,11 +90,15 @@ button{
 
 <div class="container">
 
-<header>
-<h1>個人履歷</h1>
-<p>亞洲大學學生</p>
-<p class="student-id">學號：114018023</p>
-<button onclick="toggleTheme()">切換深色模式</button>
+<header class="header">
+    <img src="images/photo.jpg" class="profile-img">
+
+    <div>
+        <h1>個人履歷</h1>
+        <p>亞洲大學學生</p>
+        <p class="student-id">學號：114018023</p>
+        <button onclick="toggleTheme()">切換深色模式</button>
+    </div>
 </header>
 
 <section>
