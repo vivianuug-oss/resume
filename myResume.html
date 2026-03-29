@@ -82,6 +82,90 @@ button{
 .dark h2{
     border-left:5px solid #4da3ff;
 }
+
+/* 🌟 直式升級版（不會變橫式） */
+
+body{
+    background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+}
+
+/* 卡片效果 */
+.container{
+    max-width:900px;
+    margin:40px auto;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* header 美化（仍然直式） */
+header{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    text-align:left;
+    border-bottom:2px solid #eee;
+    padding-bottom:20px;
+}
+
+/* 照片更漂亮 */
+.profile-img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    border:5px solid #0077ff;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* 名字 */
+h1{
+    font-size:30px;
+    margin-bottom:5px;
+}
+
+/* 區塊卡片感 */
+section{
+    margin-top:25px;
+    padding:20px;
+    border-radius:10px;
+    background:#f9fbff;
+    transition:0.3s;
+}
+
+section:hover{
+    transform:translateY(-3px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* 標題樣式 */
+h2{
+    border-left:5px solid #0077ff;
+    padding-left:10px;
+    margin-bottom:10px;
+}
+
+/* 清單美化 */
+ul li{
+    margin-bottom:8px;
+}
+
+/* 深色模式升級 */
+.dark{
+    background:#1e1e1e;
+}
+
+.dark .container{
+    background:#2a2a2a;
+}
+
+.dark section{
+    background:#333;
+}
+
+.dark h2{
+    border-left:5px solid #4da3ff;
+}
 </style>
 </head>
 
